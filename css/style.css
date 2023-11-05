@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin-500.eot');
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+        url('../fonts/montserrat-v25-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.eot');
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'),
+        url('../fonts/montserrat-v25-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin-500italic.eot');
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-500italic.woff2') format('woff2'),
+        url('../fonts/montserrat-v25-latin-500italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700italic.eot');
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-700italic.woff2') format('woff2'),
+        url('../fonts/montserrat-v25-latin-700italic.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Montserrat','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 1076px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.why-choose-us {
+    padding-bottom: 50px;
+}
+
+.indicorp-mini-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.indicorp-mini-par {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.indicorp-mini-title--why-choose-us-title {
+    text-transform: uppercase;
+    padding: 98px 30px 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}        
+
+.indicorp-mini-par--why-choose-us-par {
+    text-align: center;
+    padding: 0 50px 75px;
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.why-choose-us__cards {
+    margin: 0 -15px;
+}
+
+.why-choose-us-card {   
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.why-choose-us-card__item {
+    background: #FFFFFF;
+    padding: 30px;
+    height: 100%;
+}
+
+.why-choose-us-card-pic {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat; /* пусть будет */
+    background-position: center center; /* пусть будет */
+    margin: 0 auto 10px;
+}
+
+.why-choose-us-card-pic--pic1 {
+    background-image: url(../img/choose-img1.svg);
+}
+
+.why-choose-us-card-pic--pic2 {
+    background-image: url(../img/choose-img2.svg);
+}
+
+.why-choose-us-card-pic--pic3 {
+    background-image: url(../img/choose-img3.svg);
+}
+
+.why-choose-us-card-pic--pic4 {
+    background-image: url(../img/choose-img4.svg);
+}
+
+.why-choose-us-card__numbers {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.why-choose-us-card__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+    text-transform: uppercase;
+}
+
+.practice-advice {
+    padding-top: 136px;
+}
+
+.indicorp-mini-title--practice-advice-title {
+    text-transform: capitalize; 
+    padding-bottom: 10px;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.indicorp-mini-par--practice-advice-par {
+    text-align: center;
+    padding: 0 50px 76px;
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.practice-advice__cards {
+    margin: 0 -15px 210px;
+}
+
+.practice-advice-card {    
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.practice-advice-card__item {
+    background: #FFFFFF;
+    height: 100%;
+}
+
+.practice-advice-card__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding: 30px 30px 15px;    
+}
+
+.indicorp-mini-par--practice-advice-card-par {
+    padding: 0 30px 30px;
+}
+
+.practice-advice-card__pic {
+    width: 100%;
+    height: 138px;
+    display: block;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+
+    .why-choose-us__cards {
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .practice-advice__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .practice-advice-card__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .practice-advice-card__pic {
+        margin-top: auto; /*Так лучше*/
+    }
+
+    .why-choose-us-card {
+        width: 50%;
+    }
+
+    .practice-advice-card {
+        width: 50%;        
+    }   
+
+    .indicorp-mini-title--why-choose-us-title,
+    .indicorp-mini-title--practice-advice-title  {
+        max-width: 900px;
+        padding-top: 80px;
+    }
+
+    .why-choose-us {   
+        background: linear-gradient(180deg, #FAFAFA 0%, #E2E2E2 100%);
+    }
+
+    .indicorp-mini-par--why-choose-us-par {
+        padding-bottom: 50px;
+    }
+
+    .practice-advice {
+        padding-top: 46px;
+    }
+
+    .indicorp-mini-par--practice-advice-par {
+        padding-bottom: 45px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .why-choose-us-card {
+        width: 25%;
+    }
+    
+    .practice-advice-card {
+        width: 25%;
+    }
+}
+
+
+
