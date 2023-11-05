@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Tahoma', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background: #f9f9f9;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #EEEFF1;
+    padding: 72px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.menu a {
+    float: right;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;    
+    font-weight: normal;   
+    text-decoration: none; 
+    color: #000000; 
+    text-transform: uppercase;    
+}
+
+.menu a:hover {
+    color: #34547A;
+}
+
+.first-screen {
+    padding: 76px 0 170px 0;
+}
+
+.first-screen-img {
+    width: 568px;
+    float: left;
+    margin-top: 30px;
+}
+
+.first-screen-article {
+    width: 542px;
+    float: left;
+}
+
+.first-screen-article h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 49px;
+}
+
+.first-screen-article p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 75px;
+}
+
+.first-screen-article a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #34547A;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 51px;
+}
+
+.box {
+    background: #EEEFF1;
+    padding: 46px 0 100px 0;
+}
+
+.box h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+.box p {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;    
+    color: #727272;
+    margin-bottom: 57px;
+}
+
+.projects {
+    padding: 141px 0 88px 0;
+}
+
+/* .list img {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 28px;
+} */
+
+.item {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 28px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.footer {
+    background: #34547A;
+    padding: 39px 0 39px 0;
+}
+
+.copyright {
+    float: left;
+    color: #FFFFFF;
+}
+
+.p1 {
+    font-size: 21px;
+    line-height: 25px; 
+    margin-bottom: 18px;   
+}
+
+.p2 {
+    font-size: 13px;
+    line-height: 21px;    
+}
+
+.socials {
+    float: right;
+    margin-top: 10px;
+}
+
+.socials a {
+    margin-left: 34px;
+}
